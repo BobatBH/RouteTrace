@@ -8,13 +8,13 @@ The intent is for traces to stay included in your release builds so they can be 
 
 ### Introducing RDD
 
-Route Driven Design (RDD) is a new, additional method by which you can test your code. Not quite as low-level as a unit test, but not as high level as a behavior-, acceptance-, or even a feature test. This kind of testing is somewhere in-between, though closer to unit testing. Essentially it's a way to fortify your tracer bullets.
+Route Driven Development (RDD) is a new, additional method by which you can test your code. Not quite as low-level as a unit test, but not as high level as a behavior-, acceptance-, or even a feature test. This kind of testing is somewhere in-between, though closer to unit testing. Essentially it's a way to fortify your tracer bullets.
 
 To paraphrase [Wikipedia](https://en.wikipedia.org/wiki/Scrum_%28software_development%29) and [Andy Hunt/Dave Thomas](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X), tracer bullets are a quick way to get from a requirement to production code, usually resulting in end-to-end functionality. That is, the a requirement is implemented with stubs, but every part of the requirement is represented with shippable code.
 
 You use RDD to create the skeleton of your program, knowing that the sequence is always what you expect it to be (provided you continue to run the tests, of course).
 
-The method by which you practice RDD is very similar to how you would practice [Test Driven Design](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), just at a different level. If you think of testing and xDD in general, they are like layers of an onion. The outer layers are more high-level ([BDD](https://en.wikipedia.org/wiki/Behavior-driven_development), [ATDD](https://en.wikipedia.org/wiki/Acceptance_test-driven_development), [FDD](https://en.wikipedia.org/wiki/Feature-driven_development); i.e. macro) testing while the inner layers are very focused, low-level (micro) testing.
+The method by which you practice RDD is very similar to how you would practice [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), just at a different level. If you think of testing and xDD in general, they are like layers of an onion. The outer layers are more high-level ([BDD](https://en.wikipedia.org/wiki/Behavior-driven_development), [ATDD](https://en.wikipedia.org/wiki/Acceptance_test-driven_development), [FDD](https://en.wikipedia.org/wiki/Feature-driven_development); i.e. macro) testing while the inner layers are very focused, low-level (micro) testing.
 
 The sequence of TDD is:
 
@@ -208,7 +208,7 @@ An example Xcode (Mac command line) project is provided. It's just a skeleton pr
  
 ## Author
 
-[Bob Koon](http://twitter.com/bob_at_bh)
+[Bob Koon](http://www.bobkoon.com)
 
 ## License
 
