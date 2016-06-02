@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C47E21A71CF9E19B008B194B /* mainTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = C47E21A61CF9E19B008B194B /* mainTests.mm */; };
+		C47E21AA1CF9E277008B194B /* RouteTrace.c in Sources */ = {isa = PBXBuildFile; fileRef = C47E21A81CF9E277008B194B /* RouteTrace.c */; };
+		C47E21B31CF9FF72008B194B /* RouteTrace.c in Sources */ = {isa = PBXBuildFile; fileRef = C47E21A81CF9E277008B194B /* RouteTrace.c */; };
+		C47E21BC1CFA006D008B194B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C47E21B71CFA006D008B194B /* main.cpp */; };
+		C47E21BD1CFA006D008B194B /* Workhorse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C47E21BA1CFA006D008B194B /* Workhorse.cpp */; };
+		C47E21BE1CFA0090008B194B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C47E21B71CFA006D008B194B /* main.cpp */; };
+		C47E21BF1CFA0094008B194B /* Workhorse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C47E21BA1CFA006D008B194B /* Workhorse.cpp */; };
+		C47E21C11CFA2483008B194B /* WorkhorseTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = C47E21C01CFA2483008B194B /* WorkhorseTests.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C47E21891CF9BE65008B194B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C47E218B1CF9BE65008B194B /* RouteTrace */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RouteTrace; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E219E1CF9E051008B194B /* RouteTraceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouteTraceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47E21A21CF9E051008B194B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47E21A61CF9E19B008B194B /* mainTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = mainTests.mm; sourceTree = "<group>"; };
+		C47E21A81CF9E277008B194B /* RouteTrace.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RouteTrace.c; sourceTree = "<group>"; };
+		C47E21A91CF9E277008B194B /* RouteTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteTrace.h; sourceTree = "<group>"; };
+		C47E21B71CFA006D008B194B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C47E21B81CFA006D008B194B /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		C47E21B91CFA006D008B194B /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		C47E21BA1CFA006D008B194B /* Workhorse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Workhorse.cpp; sourceTree = "<group>"; };
+		C47E21BB1CFA006D008B194B /* Workhorse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workhorse.h; sourceTree = "<group>"; };
+		C47E21C01CFA2483008B194B /* WorkhorseTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WorkhorseTests.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C47E21881CF9BE65008B194B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E219B1CF9E051008B194B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C47E21821CF9BE65008B194B = {
+			isa = PBXGroup;
+			children = (
+				C47E218D1CF9BE65008B194B /* RouteTrace */,
+				C47E21B61CFA006D008B194B /* ExampleApp */,
+				C47E219F1CF9E051008B194B /* RouteTraceTests */,
+				C47E218C1CF9BE65008B194B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C47E218C1CF9BE65008B194B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C47E218B1CF9BE65008B194B /* RouteTrace */,
+				C47E219E1CF9E051008B194B /* RouteTraceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C47E218D1CF9BE65008B194B /* RouteTrace */ = {
+			isa = PBXGroup;
+			children = (
+				C47E21A81CF9E277008B194B /* RouteTrace.c */,
+				C47E21A91CF9E277008B194B /* RouteTrace.h */,
+			);
+			path = RouteTrace;
+			sourceTree = "<group>";
+		};
+		C47E219F1CF9E051008B194B /* RouteTraceTests */ = {
+			isa = PBXGroup;
+			children = (
+				C47E21A21CF9E051008B194B /* Info.plist */,
+				C47E21A61CF9E19B008B194B /* mainTests.mm */,
+				C47E21C01CFA2483008B194B /* WorkhorseTests.mm */,
+			);
+			path = RouteTraceTests;
+			sourceTree = "<group>";
+		};
+		C47E21B61CFA006D008B194B /* ExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				C47E21B71CFA006D008B194B /* main.cpp */,
+				C47E21B81CFA006D008B194B /* main.h */,
+				C47E21B91CFA006D008B194B /* Result.h */,
+				C47E21BA1CFA006D008B194B /* Workhorse.cpp */,
+				C47E21BB1CFA006D008B194B /* Workhorse.h */,
+			);
+			path = ExampleApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C47E218A1CF9BE65008B194B /* RouteTrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E21921CF9BE65008B194B /* Build configuration list for PBXNativeTarget "RouteTrace" */;
+			buildPhases = (
+				C47E21871CF9BE65008B194B /* Sources */,
+				C47E21881CF9BE65008B194B /* Frameworks */,
+				C47E21891CF9BE65008B194B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteTrace;
+			productName = RouteTrace;
+			productReference = C47E218B1CF9BE65008B194B /* RouteTrace */;
+			productType = "com.apple.product-type.tool";
+		};
+		C47E219D1CF9E051008B194B /* RouteTraceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C47E21A31CF9E051008B194B /* Build configuration list for PBXNativeTarget "RouteTraceTests" */;
+			buildPhases = (
+				C47E219A1CF9E051008B194B /* Sources */,
+				C47E219B1CF9E051008B194B /* Frameworks */,
+				C47E219C1CF9E051008B194B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouteTraceTests;
+			productName = RouteTraceTests;
+			productReference = C47E219E1CF9E051008B194B /* RouteTraceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C47E21831CF9BE65008B194B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Example App";
+				TargetAttributes = {
+					C47E218A1CF9BE65008B194B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C47E219D1CF9E051008B194B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C47E21861CF9BE65008B194B /* Build configuration list for PBXProject "RouteTrace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C47E21821CF9BE65008B194B;
+			productRefGroup = C47E218C1CF9BE65008B194B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C47E218A1CF9BE65008B194B /* RouteTrace */,
+				C47E219D1CF9E051008B194B /* RouteTraceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C47E219C1CF9E051008B194B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C47E21871CF9BE65008B194B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E21BC1CFA006D008B194B /* main.cpp in Sources */,
+				C47E21AA1CF9E277008B194B /* RouteTrace.c in Sources */,
+				C47E21BD1CFA006D008B194B /* Workhorse.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C47E219A1CF9E051008B194B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47E21A71CF9E19B008B194B /* mainTests.mm in Sources */,
+				C47E21C11CFA2483008B194B /* WorkhorseTests.mm in Sources */,
+				C47E21B31CF9FF72008B194B /* RouteTrace.c in Sources */,
+				C47E21BF1CFA0094008B194B /* Workhorse.cpp in Sources */,
+				C47E21BE1CFA0090008B194B /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C47E21901CF9BE65008B194B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C47E21911CF9BE65008B194B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C47E21931CF9BE65008B194B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C47E21941CF9BE65008B194B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C47E21A41CF9E051008B194B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RouteTraceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RouteTraceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C47E21A51CF9E051008B194B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RouteTraceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.RouteTraceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C47E21861CF9BE65008B194B /* Build configuration list for PBXProject "RouteTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E21901CF9BE65008B194B /* Debug */,
+				C47E21911CF9BE65008B194B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E21921CF9BE65008B194B /* Build configuration list for PBXNativeTarget "RouteTrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E21931CF9BE65008B194B /* Debug */,
+				C47E21941CF9BE65008B194B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C47E21A31CF9E051008B194B /* Build configuration list for PBXNativeTarget "RouteTraceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47E21A41CF9E051008B194B /* Debug */,
+				C47E21A51CF9E051008B194B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C47E21831CF9BE65008B194B /* Project object */;
+}
