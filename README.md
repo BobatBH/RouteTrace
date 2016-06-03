@@ -14,7 +14,7 @@ To paraphrase [Wikipedia](https://en.wikipedia.org/wiki/Scrum_%28software_develo
 
 You use RDD to create the skeleton of your program, knowing that the sequence is always what you expect it to be (provided you continue to run the tests, of course).
 
-The method by which you practice RDD is very similar to how you would practice [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), just at a different level. If you think of testing and xDD in general, they are like layers of an onion. The outer layers are more high-level ([BDD](https://en.wikipedia.org/wiki/Behavior-driven_development), [ATDD](https://en.wikipedia.org/wiki/Acceptance_test-driven_development), [FDD](https://en.wikipedia.org/wiki/Feature-driven_development); i.e. macro) testing while the inner layers are very focused, low-level (micro) testing.
+The method by which you practice RDD is very similar to how you would practice [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) (TDD), just at a different level. If you think of testing and the xDD's in general, they are like layers of an onion. The outer layers are more high-level ([BDD](https://en.wikipedia.org/wiki/Behavior-driven_development), [ATDD](https://en.wikipedia.org/wiki/Acceptance_test-driven_development), [FDD](https://en.wikipedia.org/wiki/Feature-driven_development); i.e. macro) testing while the inner layers are very focused, low-level (i.e. micro) testing.
 
 The sequence of TDD is:
 
@@ -22,7 +22,7 @@ The sequence of TDD is:
 2. green
 3. refactor
 
-That is, you create a test first and see it fail. Then you do the smallest amount of work necessary to get the test to pass ("What is the simplest thing that could possibly work?") Finally, you refactor the code to remove duplication, magic numbers, and anything else that smells. Afterwords, you run the tests again to make sure they all still pass.
+That is, you create a test first and see it fail (the bar goes red). Then you do the smallest amount of work necessary to get the test to pass ("What is the simplest thing that could possibly work?"; the bar turns green.) Finally, you refactor the code to remove duplication, magic numbers, and anything else that smells. Afterwords, you run the tests again to make sure they all still pass.
 
 This sequence is exactly the same with RDD except that instead of testing specific functionality, you're testing that the higher-order functions exist _and are called in the correct order_.
 
